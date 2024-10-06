@@ -1,55 +1,59 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
+    "title":"Que tipo de dev você é ?",
     "questions":[
       {
         "id":1,
-        "question": "Qual super poder você escolheria ?",
+        "question": "Você é bom com matemática, lógica e essas coisas ?",
         "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+          {"id": 1, "name":"Não, prefiro design e coisas do tipo.", "alias":"A"},
+          {"id": 2, "name":"Poderia ser melhor mas sou preguiçoso para essas coisas.", "alias":"A"},
+          {"id": 3, "name":"Até que sou bom mas as vezes me sinto um pouco perdido.", "alias":"B"},
+          {"id": 4, "name":"Sim, sempre fui um dos melhores nesse quesito.", "alias":"B"}
         ]
       },
       {
         "id":2,
-        "question": "Quem você salvaria primeiro ?",
+        "question": "Quando você inicia um projeto pessoal como você se planeja ?",
         "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+          {"id": 1, "name":"Eu não comecei nenhum projeto pessoal ainda...", "alias":"A"},
+          {"id": 2, "name":"Começo planejando o design é claro!", "alias":"A"},
+          {"id": 3, "name":"Faço um desenho da estrutura e como cada parte pode se encaixar.", "alias":"B"},
+          {"id": 4, "name":"Não preciso me planejar, vou escrevendo sem medo de errar.","alias":"B"}
         ]
       },
       {
         "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "question": "Qual a sua maior preocupação quando pensa em arranjar um emprego ?",
         "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+          {"id": 1, "name":"Não estou preocupado, na verdade nem pensei em arranjar um emprego ainda. ", "alias":"A"},
+          {"id": 2, "name":"Tenho medo de não ser bom o suficiente e ficar para trás.", "alias":"A"},
+          {"id": 3, "name":"Não encontrar o emprego.", "alias":"B"},
+          {"id": 4, "name":"Não tenho preocupação nenhuma consigo emprego em qualquer lugar", "alias":"B"}
         ]
       },
       {
         "id":4,
-        "question": "Qual o seu maior foco ?",
+        "question": "Quais são as suas metas ?",
         "options":[
-          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+          {"id": 1, "name":"Ficar rico em poucos meses", "alias":"A"},
+          {"id": 2, "name":"Juntar um dinheiro e ver o que vai rolar", "alias":"A"},
+          {"id": 1, "name":"Evoluir profissionalmente e depender só de mim", "alias":"B"},
+          {"id": 2, "name":"Ficar rico e gastar", "alias":"B"}
         ]
       },
       {
         "id":5,
-        "question": "Qual o seu apelido de super ser ?",
+        "question": "Como você se descreveria ?",
         "options":[
-          {"id": 1, "name":"O Terrivel", "alias":"A"},
-          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+          {"id": 1, "name":"Preguiçoso", "alias":"A"},
+          {"id": 2, "name":"Proativo", "alias":"A"},
+          {"id": 1, "name":"Atencioso", "alias":"B"},
+          {"id": 2, "name":"Arrogante", "alias":"B"}
         ]
       }
     ],
     "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+      "A": "Parabéns você é um dev Front-End!",
+      "B": "Parabéns você é um dev Back-End!"
     }
   }
